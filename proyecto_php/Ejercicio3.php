@@ -17,12 +17,15 @@
             
             $dias = 7;
             $horasTrabajadas = 8;
-            $pagaHoras = 2.00;        
+            $pagaHoras = 2.00;
 
             $sueldoSemanal = ($horasTrabajadas * $pagaHoras) * 7;
+<<<<<<< HEAD
             $sueldoDia = ($horasTrabajadas * $pagaHoras)*1;
             
             echo "Sueldo por dia: $ $sueldoDia";
+=======
+>>>>>>> parent of 26eb01b (Se agrego una valiable sueldoDia para verificar el sueldo por dia)
             echo "El sueldo semana del trabajador es de: $ $sueldoSemanal";
             ?>
         </big></td>
