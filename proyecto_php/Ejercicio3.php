@@ -17,12 +17,9 @@
             
             $dias = 7;
             $horasTrabajadas = 8;
-            $pagaHoras = 2.00;        
+            $pagaHoras = 2.00;
 
             $sueldoSemanal = ($horasTrabajadas * $pagaHoras) * 7;
-            $sueldoDia = $horasTrabajadas * $pagaHoras;
-            echo "Sueldo por dia: $" + $sueldoDia;
-            echo "<hr>";
             echo "El sueldo semana del trabajador es de: $ $sueldoSemanal";
             ?>
         </big></td>
